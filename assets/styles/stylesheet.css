@@ -1,0 +1,36 @@
+/*
+  Basic Styles
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  background: #EEE;
+  text-align: center;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Lucida Grande Sans', sans-serif;
+  max-width: 43.75em;
+  margin: 0 auto;
+  padding: 0;
+  color: #4a4a4a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
